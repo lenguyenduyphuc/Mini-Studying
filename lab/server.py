@@ -7,5 +7,4 @@ app = Flask(__name__)
 # Define a route for the root URL ("/")
 @app.route("/")
 def hello_world():
-    # Function that handles requests to the root URL
     return jsonify({"message:": "Hello, World!"})
