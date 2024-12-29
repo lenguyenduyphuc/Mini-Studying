@@ -25,6 +25,8 @@ dist-ssr
 
 # ignore flask venv
 .venv/
+myEnv
+.vscode
 
 *.pyc
 __pycache__/
